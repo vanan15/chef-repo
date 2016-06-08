@@ -5,8 +5,8 @@ end
 #Install source code
 remote_file '/var/www/html/index.html' do
   source 'https://raw.githubusercontent.com/vanan15/testrepo/master/index.html'
-  owner 'www_data'
-  group 'www_data'
+  owner 'www-data'
+  group 'www-data'
   mode '0644'
   action :create
 end
